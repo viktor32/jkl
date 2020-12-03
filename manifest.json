@@ -1,0 +1,12 @@
+{
+  "name": "PPX Ext",
+  "version": "1.0",
+  "description": "PixelPlex Confortaizer",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
